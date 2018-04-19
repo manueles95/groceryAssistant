@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238FAFCC2055AB3600AFA92D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FAFCB2055AB3600AFA92D /* Model.swift */; };
+		238FAFCE2055B91700AFA92D /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FAFCD2055B91700AFA92D /* ListItem.swift */; };
+		238FAFD02055B97900AFA92D /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FAFCF2055B97900AFA92D /* CartItem.swift */; };
+		238FAFD32055C2D900AFA92D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238FAFD22055C2D900AFA92D /* CoreData.framework */; };
+		238FAFD92055C4BE00AFA92D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 238FAFD72055C4BE00AFA92D /* Model.xcdatamodeld */; };
+		23AA6A45206085F900874FEC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AA6A44206085F900874FEC /* ListViewController.swift */; };
+		23AA6A472060871E00874FEC /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AA6A462060871E00874FEC /* CartViewController.swift */; };
+		23E6D8C420858E52007D76FB /* Products.txt in Resources */ = {isa = PBXBuildFile; fileRef = 23E6D8C320858E52007D76FB /* Products.txt */; };
+		23E6D8C620858FC4007D76FB /* UDLAPStringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6D8C520858FC4007D76FB /* UDLAPStringFile.swift */; };
+		23E6D8C82086EED6007D76FB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6D8C72086EED6007D76FB /* Product.swift */; };
+		F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DB61DAF669400026BB2 /* AppDelegate.swift */; };
+		F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBA1DAF669400026BB2 /* Main.storyboard */; };
+		F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBD1DAF669400026BB2 /* Assets.xcassets */; };
+		F4F09DC11DAF669400026BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */; };
+		F4F09DC91DAF6A3800026BB2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DC81DAF6A3800026BB2 /* MainViewController.swift */; };
+		F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238FAFCB2055AB3600AFA92D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		238FAFCD2055B91700AFA92D /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		238FAFCF2055B97900AFA92D /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		238FAFD22055C2D900AFA92D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		238FAFD82055C4BE00AFA92D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		23AA6A44206085F900874FEC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		23AA6A462060871E00874FEC /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		23E6D8C320858E52007D76FB /* Products.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.txt; sourceTree = "<group>"; };
+		23E6D8C520858FC4007D76FB /* UDLAPStringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDLAPStringFile.swift; sourceTree = "<group>"; };
+		23E6D8C72086EED6007D76FB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F4F09DB31DAF669400026BB2 /* Grocery-Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery-Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4F09DBB1DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4F09DBD1DAF669400026BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F09DC01DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4F09DC21DAF669400026BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F09DC81DAF6A3800026BB2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F09DB01DAF669400026BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238FAFD32055C2D900AFA92D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238FAFD12055C2D900AFA92D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238FAFD22055C2D900AFA92D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F09DAA1DAF669400026BB2 = {
+			isa = PBXGroup;
+			children = (
+				F4F09DB51DAF669400026BB2 /* QRCodeReader */,
+				F4F09DB41DAF669400026BB2 /* Products */,
+				238FAFD12055C2D900AFA92D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F09DB41DAF669400026BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F09DB31DAF669400026BB2 /* Grocery-Assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F09DB51DAF669400026BB2 /* QRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				F4F09DB61DAF669400026BB2 /* AppDelegate.swift */,
+				F4F09DBA1DAF669400026BB2 /* Main.storyboard */,
+				23AA6A462060871E00874FEC /* CartViewController.swift */,
+				23AA6A44206085F900874FEC /* ListViewController.swift */,
+				238FAFCD2055B91700AFA92D /* ListItem.swift */,
+				238FAFCF2055B97900AFA92D /* CartItem.swift */,
+				F4F09DBD1DAF669400026BB2 /* Assets.xcassets */,
+				F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */,
+				F4F09DC21DAF669400026BB2 /* Info.plist */,
+				238FAFCB2055AB3600AFA92D /* Model.swift */,
+				238FAFD72055C4BE00AFA92D /* Model.xcdatamodeld */,
+				F4F09DC81DAF6A3800026BB2 /* MainViewController.swift */,
+				23E6D8C72086EED6007D76FB /* Product.swift */,
+				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
+				23E6D8C320858E52007D76FB /* Products.txt */,
+				23E6D8C520858FC4007D76FB /* UDLAPStringFile.swift */,
+			);
+			path = QRCodeReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F09DB21DAF669400026BB2 /* Grocery-Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F09DC51DAF669400026BB2 /* Build configuration list for PBXNativeTarget "Grocery-Assistant" */;
+			buildPhases = (
+				F4F09DAF1DAF669400026BB2 /* Sources */,
+				F4F09DB01DAF669400026BB2 /* Frameworks */,
+				F4F09DB11DAF669400026BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grocery-Assistant";
+			productName = QRCodeReader;
+			productReference = F4F09DB31DAF669400026BB2 /* Grocery-Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F09DAB1DAF669400026BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F4F09DB21DAF669400026BB2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z739K92Y9W;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "Grocery-Assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F09DAA1DAF669400026BB2;
+			productRefGroup = F4F09DB41DAF669400026BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F09DB21DAF669400026BB2 /* Grocery-Assistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F09DB11DAF669400026BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F09DC11DAF669400026BB2 /* LaunchScreen.storyboard in Resources */,
+				F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */,
+				23E6D8C420858E52007D76FB /* Products.txt in Resources */,
+				F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F09DAF1DAF669400026BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238FAFCE2055B91700AFA92D /* ListItem.swift in Sources */,
+				23E6D8C620858FC4007D76FB /* UDLAPStringFile.swift in Sources */,
+				F4F09DC91DAF6A3800026BB2 /* MainViewController.swift in Sources */,
+				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
+				238FAFD92055C4BE00AFA92D /* Model.xcdatamodeld in Sources */,
+				23E6D8C82086EED6007D76FB /* Product.swift in Sources */,
+				F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */,
+				238FAFD02055B97900AFA92D /* CartItem.swift in Sources */,
+				23AA6A45206085F900874FEC /* ListViewController.swift in Sources */,
+				23AA6A472060871E00874FEC /* CartViewController.swift in Sources */,
+				238FAFCC2055AB3600AFA92D /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4F09DBA1DAF669400026BB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F09DBB1DAF669400026BB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4F09DC01DAF669400026BB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4F09DC31DAF669400026BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4F09DC41DAF669400026BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F09DC61DAF669400026BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z739K92Y9W;
+				INFOPLIST_FILE = QRCodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grocery-assitant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F4F09DC71DAF669400026BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z739K92Y9W;
+				INFOPLIST_FILE = QRCodeReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "grocery-assitant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "Grocery-Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F09DC31DAF669400026BB2 /* Debug */,
+				F4F09DC41DAF669400026BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F09DC51DAF669400026BB2 /* Build configuration list for PBXNativeTarget "Grocery-Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F09DC61DAF669400026BB2 /* Debug */,
+				F4F09DC71DAF669400026BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		238FAFD72055C4BE00AFA92D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				238FAFD82055C4BE00AFA92D /* Model.xcdatamodel */,
+			);
+			currentVersion = 238FAFD82055C4BE00AFA92D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4F09DAB1DAF669400026BB2 /* Project object */;
+}
